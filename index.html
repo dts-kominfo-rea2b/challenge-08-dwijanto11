@@ -74,7 +74,7 @@
     let button = document.querySelector("#todo-submit");
     let input = document.querySelector("#todo-input");
     let output = document.querySelector("#todo-output");
-    input.focus();
+    // input.focus();
 
     // TODO: Buatlah sebuah fungsi dengan nama fnClickHandler
     // Fungsi yang digunakan untuk menambahkan tulisan
@@ -89,7 +89,7 @@
     button.addEventListener('click', (event) => {
       output.appendChild(fnClickHandler(input.value));
       input.value = "";
-      input.focus();
+      // input.focus();
     })
 
     // TODO: register event onkeypress / addEventListener untuk input
